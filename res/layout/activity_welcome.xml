@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".WelcomeActivity"
+    android:background="@drawable/background" >
+    
+    <LinearLayout
+        android:id="@+id/firstLL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent" >
+        
+        <TextView
+            android:id="@+id/welcomeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enterText"
+            android:layout_marginBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/holo_green_dark" />
+
+	    <Button
+	        android:id="@+id/cgpaButton"
+	        android:layout_width="270dp"
+	        android:layout_height="50dp"
+	        android:background="@drawable/calculatecgpa"
+	        />
+	    
+		<Button
+	        android:id="@+id/expectedButton"
+	        android:layout_width="270dp"
+	        android:layout_height="50dp"
+	        android:layout_marginTop="5dp"
+	        android:background="@drawable/expactedcgpa" />
+		
+		
+    </LinearLayout>
+
+</RelativeLayout>

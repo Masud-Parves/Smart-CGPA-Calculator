@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="2dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/logoBackground" >
+    
+    
+    <TextView
+        android:id="@+id/requirementsID"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:text="@string/RequirementHeader"
+        android:textAlignment="center"
+        android:textColor="#0097CE"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/LineID"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="@string/LineAVG"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0097CE" />
+
+    <TextView
+        android:id="@+id/ExpectedResultID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Required Result"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

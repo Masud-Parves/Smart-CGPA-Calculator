@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smart CGPA Calculator</string>
+    <string name="title_activity_expected_cgp">Smart CGPA Calculator</string>
+    <string name="enterText">Enter Your Choice</string>
+    <string name="EnterExpectedTextView">Enter Your Expected CGPA:</string>
+    <string name="selectDept">Select Your Department:</string>
+    <string name="title_activity_cgpa">Smart CGPA Calculator</string>
+    <string name="cgpaTextView">Calculate Your CGPA!</string>
+    <string name="cgpaButton">Calculate CGPA</string>
+    <string name="expectedButton">Calculate Expected CGPA</string>
+    <string name="helpButton">Help</string>
+    <string name="aboutButton">About Developer</string>
+    <string name="exitButton">Exit</string>
+    <string name="subjectOne">Subject1:</string>
+    <string name="subjectTwo">Subject2:</string>
+    <string name="subjectThree">Subject3:</string>
+    <string name="subjectFour">Subject4:</string>
+    <string name="subjectFive">Subject5:</string>
+    <string name="subjectSix">Subject6:</string>
+    <string name="subjectSeven">Subject7:</string>
+    <string name="subjectEight">Subject8:</string>
+    <string name="pointHint">Point</string>
+    <string name="creditHint">Credit</string>
+    <string name="submit">Submit</string>
+    <string name="marksButtonText">Calculate CGPA By Marks</string>
+    <string name="pointButtonText">Calculate CGPA By Point</string>
+    <string name="title_activity_calculate_cgp">Smart CGPA Calculator</string>
+    <string name="enterNotic">Enter Your Each Semester GPA:</string>
+    <string name="sequienceNotic">(Must Sequentially)</string>
+    <string name="expectedNotic">Expected CGPA:</string>
+    <string name="expectedHint">Required CGPA</string>
+    <string name="seeCGPAButton">SEE YOUR AVG CGPA</string>
+    <string name="expectedGetButton">SEE YOUR EXPECTED CGPA</string>
+
+    <string-array name="spinnerOne">
+        <item>Select Subject</item>
+        <item>Subject One</item>
+        <item>Subject Two</item>
+        <item>Subject Three</item>
+        <item>Subject Four</item>
+        <item>Subject Five</item>
+        <item>Subject Six</item>
+        <item>Subject Seven</item>
+        <item>Subject Eight</item>
+    </string-array>
+    
+
+    <string name="HowManySemester">How Many Semester You Passed?</string>
+    <string name="HowManySubject">Completed Subject No.</string>
+    <string name="CGPAResult">Result is:</string>
+    <string name="centerHelpline">Helpline:</string>
+    
+    <string name="followCGPA">Fllow the steps for "Calculate CGPA" :</string>
+    <string name="followExpectedCGPA">Fllow the steps for get "Expected CGPA" :</string>
+    <string name="followAverageCGPA">Fllow the steps for get "Average CGPA" :</string>
+    
+    <!-- Step no. -->
+    <string name="Step1">Step 01.</string>
+    <string name="Step2">Step 02.</string>
+    <string name="Step3">Step 03.</string>
+    <string name="Step4">Step 04.</string>
+    <string name="Step5">Step 05.</string>
+    <string name="Step6">Step 06.</string>
+    
+    <string name="stepCGPA1">Subject No.</string>
+    <string name="stepCGPA3">Enter Your Point That You Obtained In This Course.</string>
+    <string name="stepCGPA4">At Last Click On "Submit" Button To Calculate Your Result.</string>
+    
+    
+    <string name="stepAverageCGPA1">Enter Your CGPA For All Semester That You Have Alreday Completed.</string>
+    <string name="stepAverageCGPA2">Then Click "SEE YOUR AVG CGPA" Button.</string>
+    <string name="stepAverageCGPA3">Finally See Your Result.</string>
+    
+    <string name="stepExpectedCGPA1">Enter Your CGPA For All Semester That You Have Alreday Completed.</string>
+    <string name="stepExpectedCGPA2">Then Enter The CGPA You Want To Carry After Completing All Semester.</string>
+    <string name="stepExpectedCGPA3">Then Click "SEE YOUR REQUIRED CGPA" Button.</string>
+    <string name="stepExpectedCGPA4">Finally Show Your Required CGPA To Carry Expected CGPA.</string>
+    
+    
+    <!-- Semester TextView For Expected Page -->
+    <string name="SemesterOneText">Semester-01:</string>
+    <string name="SemesterTwoText">Semester-02:</string>
+    <string name="SemesterThreeText">Semester-03:</string>
+    <string name="SemesterFourText">Semester-04:</string>
+    <string name="SemesterFiveText">Semester-05:</string>
+    <string name="SemesterSixText">Semester-06:</string>
+    <string name="SemesterSevenText">Semester-07:</string>
+    <string name="SemesterEightText">Semester-08:</string>
+    <string name="SemesterNineText">Semester-09:</string>
+    <string name="SemesterTenText">Semester-10:</string>
+    <string name="SemesterElevenText">Semester-11:</string>
+    <string name="Title">Are you sure you want to exit?</string>
+    <string name="title_activity_exit">ExitActivity</string>
+    <string name="title_activity_choice">Smart CGPA Calculator</string>
+    
+    <string name="title_activity_expected">Smart CGPA Calculator</string>
+    <string name="title_activity_result">Result</string>
+    <string name="action_home">Home</string>
+    <string name="action_help">Help</string>
+    <string name="action_credit">Credit</string>
+    <string name="action_settings">Settings</string>
+    <string name="jahangirAlam">Jahangir Alam</string>
+    <string name="masudParves">Masud Parves</string>
+    <string name="jannatulProme">Junnatul Ferdouse Prome</string>
+    <string name="JahangirSir">Chief Advisor\nCall: +8801737724417\nE-mail: mjahan@gmail.com\nLecturer,Dept. of CSE,\tZHSUST</string>
+    <string name="Masud">Core Designer and Developer\nCall:+8801910912333\nE-mail: engr.masud67@gmail.com\n(9th Batch),\tDept. of CSE,\tZHSUST</string>
+    <string name="Prome">Pro. Designer\nCall: +8801761781645\nE-mail: junnatul.ferdouse@gmail.com\n(9th Batch),\tDept. of CSE,\tZHSUST</string>
+    <string name="action_exit">Exit</string>
+
+    <color name="logoBackground">#E2DEDB</color>
+
+    <string name="title_activity_expected_result">Smart CGPA Calculator</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_credit">Credit</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="Line">__________________________________</string>
+    <string name="LineAVG">_________________________</string>
+    <string name="title_activity_developer">About Developers</string>
+    <string name="RequirementHeader">Your requirements result</string>
+    <string name="AverageHeader">Your Average CGPA</string>
+    <string name="title_activity_average_result">Smart CGPA Calculator</string>
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="engr.masud67"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="engr.masud67.WelcomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="engr.masud67.CalculateCGPA"
+            android:label="@string/title_activity_calculate_cgp" >
+        </activity>
+        <activity
+            android:name="engr.masud67.ExitActivity"
+            android:label="@string/title_activity_exit" >
+        </activity>
+        <activity
+            android:name="engr.masud67.ChoiceActivity"
+            android:label="@string/title_activity_choice" >
+        </activity>
+        <activity
+            android:name="engr.masud67.ExpectedActivity"
+            android:label="@string/title_activity_expected" >
+        </activity>
+        <activity
+            android:name="engr.masud67.ResultActivity"
+            android:label="@string/title_activity_result"
+            android:theme="@style/AppTheme.CustomTheme" >
+        </activity>
+        <activity
+            android:name="engr.masud67.ExpectedResultActivity"
+            android:label="@string/title_activity_expected_result"
+            android:theme="@style/AppTheme.CustomTheme" >
+        </activity>
+        <activity
+            android:name="engr.masud67.HelpActivity"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name="engr.masud67.CreditActivity"
+            android:label="@string/title_activity_credit" >
+        </activity>
+        <activity
+            android:name="engr.masud67.DeveloperActivity"
+            android:label="@string/title_activity_developer" >
+        </activity>
+        <activity
+            android:name="engr.masud67.AverageResult"
+            android:label="@string/title_activity_average_result"
+            android:theme="@style/AppTheme.CustomTheme" >
+        </activity>
+    </application>
+
+</manifest>
